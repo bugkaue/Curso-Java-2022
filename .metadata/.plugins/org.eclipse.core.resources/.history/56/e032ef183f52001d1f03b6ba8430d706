@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author rootkue
+ *
+ */
+module Faculdade {
+}

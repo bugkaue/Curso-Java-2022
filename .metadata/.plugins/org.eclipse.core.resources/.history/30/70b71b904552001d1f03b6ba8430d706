@@ -1,0 +1,16 @@
+package exercicios;
+
+import javax.swing.JOptionPane;
+public class Exercicio6 {
+
+	public static void main(String[] args) {
+		double a = Double.parseDouble(JOptionPane.showInputDialog(null, "Digite o valor de A:", "Mensagem",JOptionPane.INFORMATION_MESSAGE));
+		double b = Double.parseDouble(JOptionPane.showInputDialog(null, "Digite o valor de B:", "Mensagem", JOptionPane.INFORMATION_MESSAGE));
+		double c = Double.parseDouble(JOptionPane.showInputDialog(null, "Digite o valor de C:", "Mensagem", JOptionPane.INFORMATION_MESSAGE));
+		
+		double delta = Math.pow(b, 2) - 4 * a * c;
+		JOptionPane.showMessageDialog(null, "O valor de delta é: " + delta, "Mensagem", JOptionPane.INFORMATION_MESSAGE);
+
+	}
+
+}
